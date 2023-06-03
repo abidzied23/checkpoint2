@@ -1,0 +1,20 @@
+doctype html
+html 
+ head 
+    title = HITECK STORE
+    link(rel='stylesheet', href='/stylesheets/style.css')
+
+ body
+  include ./navbar.jade 
+  h1(background-color= "red") HITECK STORE
+  h2 choose your product type
+  form
+   div.mb
+      input.checkbox#mobile 
+      label.mobile your mobile:
+   div.pc
+      input.checkbox#computer 
+      label.computer your computer:
+
+   input.submit 
+    
